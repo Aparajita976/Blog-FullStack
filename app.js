@@ -12,7 +12,7 @@ const app = express();
 import userRouter from './routes/user-routes';
 import blogRouter from './routes/blog-routes';
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 //app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, './frontend/build')))
