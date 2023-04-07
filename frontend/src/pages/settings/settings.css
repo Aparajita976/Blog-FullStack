@@ -1,0 +1,104 @@
+.contain1 {
+    box-shadow: 0 .5rem 1.5rem;
+    text-align: center;
+}
+
+.card1 {
+    width: 50%;
+}
+
+.btn {
+    margin-right: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+.btn1 {
+    background-color: #FF6C6C;
+    color: beige;
+    display: block;
+    margin-top: 5%;
+}
+
+.btn1:hover {
+    background-color: rgb(4, 4, 68);
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(1, 18, 83);
+    font-weight: bolder;
+    margin-bottom: 2rem;
+
+}
+
+
+
+.username {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+.button {
+
+
+    width: 10%;
+    height: 10%;
+    display: block;
+
+}
+
+/*@media (max-width: 1221px) {
+    .contain {
+        margin-top: 10%;
+    }
+
+}*/
+
+
+@media (min-width: 400px) {
+
+
+
+    .contain {
+        width: 60%
+    }
+
+
+}
+
+
+@media (min-width: 991px) {
+    .contain {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 991px) {
+    .contain {
+        margin-top: 40%;
+    }
+
+    .button {
+        width: 20%;
+        height: 20%;
+    }
+
+}
+
+@media (max-width: 361px) {
+    .button {
+        width: 50%;
+        height: 50%;
+    }
+}

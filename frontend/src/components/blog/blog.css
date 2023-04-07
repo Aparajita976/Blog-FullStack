@@ -1,0 +1,34 @@
+.card1 {
+    width: 80%;
+    margin: 2rem;
+}
+
+.card-title1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.card-text1 {
+    font-family: "Varela Round", sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: black;
+    line-height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.nav-link2 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-', sans-serif;
+    color: rgb(133, 41, 2);
+}
+
+.nav-link2:hover {
+    color: rgb(228, 71, 4)
+}

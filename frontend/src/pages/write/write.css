@@ -1,0 +1,79 @@
+.btn {
+    margin-right: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+.btn-dark {
+    background-color: #6dabe4;
+}
+
+.btn:hover {
+    background-color: rgb(4, 4, 68);
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(1, 18, 83);
+    font-weight: bolder;
+
+}
+
+.form-control3 {
+    background: #eee;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    color: var(--black);
+
+    border: none;
+}
+
+.box {
+    margin: auto;
+    width: 50%;
+    margin-top: 2rem;
+    box-shadow: 0 .5rem 1.5rem;
+    text-align: center;
+}
+
+.details {
+    margin-top: 4rem;
+}
+
+@media (max-width: 1221px) {
+
+
+    .details3 {
+        width: 50%;
+    }
+
+    .container-fluid {
+        width: 100%
+    }
+
+
+}
+
+@media (min-width: 400px) {
+
+
+
+    .container-fluid {
+        width: 60%
+    }
+
+
+}
+
+@media (min-width: 1000px) {
+    .container-fluid {
+        width: 30%
+    }
+}
